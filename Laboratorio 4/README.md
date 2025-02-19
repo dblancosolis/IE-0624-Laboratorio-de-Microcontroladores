@@ -1,0 +1,3 @@
+# STM32: GPIO, ADC, timer, comunicaciones, Iot
+
+Implementación de un sistema de monitoreo de pendientes basado en el STM32F429 Discovery kit y la biblioteca libopencm3. El sistema sensa y desplega en la pantalla LCD el nivel de batería, la temperatura, los valores de los ejes X,Y,Z y si la comunicación serial/USB esta habilitada, también incluye la función de lectura/escritura al puerto serial/USB para desplegar en un dashboard de una plataforma Iot (thingsboard) la información del giroscopio, temperatura y nivel de batería.
